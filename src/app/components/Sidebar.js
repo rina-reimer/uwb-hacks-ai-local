@@ -55,7 +55,7 @@ function Sidebar() {
             width={2000}
             height={80}
             className="sidebar__logo"
-            src="/logo.jpg"
+            src="/logo.png"
             alt="logo"
           />
         </div>
