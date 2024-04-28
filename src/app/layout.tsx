@@ -1,11 +1,11 @@
 import "bootstrap-icons/font/bootstrap-icons.css";
 import type { Metadata } from "next";
-import "@fontsource/space-mono"; // Import the correct package for the Space Mono font from Google Fonts
+import { Space_Mono } from "next/font/google";
 import "./globals.css";
 import Sidebar from "./components/Sidebar";
 
 
-const space = "Space Mono"; // Update the variable to use the correct font name
+const space = Space_Mono({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "J0b B0b",
