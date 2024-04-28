@@ -1,11 +1,11 @@
 import "bootstrap-icons/font/bootstrap-icons.css";
 import type { Metadata } from "next";
-import { Space_Mono } from "next/font/google";
+import "@fontsource/space-mono"; // Import the correct package for the Space Mono font from Google Fonts
 import "./globals.css";
 import Sidebar from "./components/Sidebar";
 
 
-const space = Space_Mono({ weight: "400", subsets: ["latin"] });
+const space = "Space Mono"; // Update the variable to use the correct font name
 
 export const metadata: Metadata = {
   title: "J0b B0b",
@@ -23,7 +23,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={space.className}>
         <div className="flex bg-beige">
-          <Sidebar />
+          <div className="hidden lg:grid">
+            <Sidebar/>
+          </div>
           <main className="layout__main-content p-12 min-h-screen">{children}</main>
         </div>
       </body>

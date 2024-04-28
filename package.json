@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/space-mono": "^5.0.20",
     "@googlemaps/js-api-loader": "^1.16.6",
     "@prisma/client": "^5.13.0",
     "@t3-oss/env-nextjs": "^0.10.1",

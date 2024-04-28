@@ -29,12 +29,12 @@ export default function Home() {
             <Image src="/sprite-left.png" priority={true} width={400} height={400} alt={"Job Bob facing right"} />
           </div>
           <div className="grid w-full">  
-            <div className="flex items-center w-full h-fit bg-seafoam border-4 border-black rounded-box box-shadow my-4">
+            <div className="flex items-center w-full h-fit bg-seafoam border-4 border-black rounded-box my-4">
               <span className="text-xl p-8">Here are some recommended jobs for you!</span>
             </div>
             <EmblaCarousel key="0" slides={SLIDES} options={OPTIONS} />
 {/* resume scanner */}
-            <div className="flex items-center w-full h-fit bg-orange border-4 border-black rounded-box box-shadow my-4">
+            <div className="flex items-center w-full h-fit bg-orange border-4 border-black rounded-box my-4">
               <Link className="text-xl p-8" href="/resume-scanner">Click here to scan your resume!</Link>
             </div>
           </div>
