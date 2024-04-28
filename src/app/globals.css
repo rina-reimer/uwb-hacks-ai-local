@@ -9,6 +9,10 @@
 .box-shadow { box-shadow: 10px 10px 0 0 #000; }
 .font-heading { font-family: 'Fraunces, serif'; font-weight: 700;}
 
+.body {
+  background-color: "#FFF6EC";
+}
+
 .layout {
   display: flex;
   height: 100vh;

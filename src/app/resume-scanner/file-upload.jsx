@@ -23,7 +23,7 @@ export default function FileUpload() {
       server="/api/upload"
       name="files"
       allowPdfPreview={true}
-      pdfPreviewHeight={1280}
+      pdfPreviewHeight={128}
       pdfComponentExtraParams='toolbar=0&view=fit&page=1'
     />
   );
